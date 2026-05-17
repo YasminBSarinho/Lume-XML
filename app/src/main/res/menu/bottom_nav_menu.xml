@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_livros"
+        android:icon="@drawable/ic_book"
+        android:title="Livros" />
+    <item
+        android:id="@+id/nav_sortear_pink"
+        android:icon="@drawable/ic_bolacristal"
+        android:title="Sortear" />
+    <item
+        android:id="@+id/nav_inicio"
+        android:icon="@drawable/id_home"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/nav_sortear_purple1"
+        android:icon="@drawable/ic_star"
+        android:title="Sortear" />
+    <item
+        android:id="@+id/nav_sortear_purple2"
+        android:icon="@drawable/ic_star"
+        android:title="Sortear" />
+</menu>

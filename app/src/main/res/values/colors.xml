@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="roxo_primario">#75519A</color>
+    <color name="roxo_secundario">#8C72AE</color>
+    <color name="roxo_borda">#CFBDD7</color>
+    <color name="rosa">#E39FC2</color>
+    <color name="rosa_clarinho">#FAEBF1</color>
+    <color name="backgorund_branco">#FCF3F6</color>
+    <color name="background_card">#FEF8F8</color>
+
+</resources>

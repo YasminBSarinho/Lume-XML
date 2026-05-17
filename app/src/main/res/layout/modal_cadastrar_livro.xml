@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_nav"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@color/roxo_borda" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Cadastrar Novo Livro"
+        android:textColor="@color/roxo_primario"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Título do Livro"
+        android:textColor="@color/roxo_secundario"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_seletor_genero"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Ex: O Código Da Vinci"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/roxo_primario"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Gênero"
+        android:textColor="@color/roxo_secundario"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editGeneroLivro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_seletor_genero"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Ex: Romance"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/roxo_primario"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnConfirmarCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_roxo"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Confirmar Cadastro"
+        android:textAllCaps="false"
+        android:textColor="@color/backgorund_branco"
+        android:textSize="18sp"
+        app:backgroundTint="@null" />
+
+</LinearLayout>
