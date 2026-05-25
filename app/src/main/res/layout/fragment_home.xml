@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgorund_branco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Cadastro"
+            android:textColor="@color/roxo_primario"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Cadastre um livro na sua biblioteca"
+            android:textColor="@color/roxo_secundario"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Título do Livro"
+            android:textColor="@color/roxo_secundario"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_seletor_genero"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Título"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/roxo_primario" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Autor"
+            android:textColor="@color/roxo_secundario"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editAutor"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_seletor_genero"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Autor"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/roxo_primario" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Ano de Publicação"
+            android:textColor="@color/roxo_secundario"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editAno"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_seletor_genero"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Ano"
+            android:inputType="number"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/roxo_primario" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Gênero"
+            android:textColor="@color/roxo_secundario"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editGenero"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_seletor_genero"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Gênero"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/roxo_primario" />
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/btn_roxo"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Cadastrar"
+            android:textColor="@color/backgorund_branco"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
